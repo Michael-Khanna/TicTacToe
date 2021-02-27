@@ -1,0 +1,22 @@
+html{
+  background-color: black;
+  color: white;
+}
+
+.blocks{
+  width: 190px;
+  height: 190px;
+  background-color: pink;
+  color: black;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100px;
+}
+.boxContainer{
+  display: grid;
+  grid-template-rows: 200px 200px 200px;
+  grid-template-columns: 200px 200px 200px;
+}
