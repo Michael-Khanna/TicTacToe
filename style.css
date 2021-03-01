@@ -1,6 +1,9 @@
 html{
   background-color: black;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .blocks{
@@ -19,4 +22,15 @@ html{
   display: grid;
   grid-template-rows: 200px 200px 200px;
   grid-template-columns: 200px 200px 200px;
+}
+
+
+.resetBtnContainer, .scoreBoard, .nameInput, .liveUpdContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name1, .name2, .score1, .score2, .liveUpdate{
+  margin: 5px;
 }
